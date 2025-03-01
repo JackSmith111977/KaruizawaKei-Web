@@ -26,6 +26,12 @@
     font-style: italic;
     text-decoration: none;
 }
+#home{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: #00fffb;
+}
 
 
 .content{
@@ -50,6 +56,7 @@
     z-index: 0;
 }
 
+/*---------------------------------------------------------------------------*/
 
 #Body{
     display: flex;
@@ -64,4 +71,65 @@
     position: absolute;
     top: 50px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
+
+.mainContent{
+    width: 760px;
+    height: 360px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#Ddesigning2_i{
+    height: 240px;
+    width: 760px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#designing2{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+#designing2text{
+    height: 50px;
+    width: 706px;
+    display: flex;
+    justify-content: center;
+}
+#detext{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+.cButton{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(70, 67, 236, 0.5);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.cButton_p{
+    margin: 2px;
+}
+
